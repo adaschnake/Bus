@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -166,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
 
         //remove this from this method
         card1View.setImageResource(R.drawable.ace_of_clubs);
+        card1View.set
         card2View.setImageResource(R.drawable.four_of_clubs);
         card3View.setImageResource(R.drawable.ten_of_clubs);
         card4View.setImageResource(R.drawable.jack_of_diamonds2);
